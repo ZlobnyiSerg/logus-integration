@@ -42,12 +42,12 @@
       <HintPath>packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Logus.HMS.Messages, Version=1.32.5645.32018, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Logus.HMS.Messages.1.32.3\lib\net40\Logus.HMS.Messages.dll</HintPath>
+    <Reference Include="Logus.HMS.Messages, Version=1.35.6076.24473, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Logus.HMS.Messages.1.35.10\lib\net45\Logus.HMS.Messages.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Logus.HMS.Shared, Version=1.32.5645.32017, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Logus.HMS.Messages.1.32.3\lib\net40\Logus.HMS.Shared.dll</HintPath>
+    <Reference Include="Logus.HMS.Shared, Version=1.32.6076.18560, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Logus.HMS.Messages.1.35.10\lib\net45\Logus.HMS.Shared.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="BridgeService.cs" />
     <Compile Include="BusFactory.cs" />
+    <Compile Include="Handlers\AvailabilityChangedHandler.cs" />
     <Compile Include="Handlers\ReservationUpdatedHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
